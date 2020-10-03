@@ -1,0 +1,123 @@
+/* styling overall of webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* styles background color to grey */
+body {
+    background-color: #d9dcd6;
+}
+/* styles header section of webpage */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*  styles all h1 tags (specific to co. name for this page) */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*  styles all h2 tags (specific to headings located with-in section) */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*  styles all h3 tags (specific to headings locaated with-in asside) */
+h3  {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* styles all h4 tags (specific to heading locaated with-in footer) */
+h4 {
+    font-size: 20px;
+}
+/* responisbele for styling all link elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* responsible for styling all paragraph elements  */
+p {
+    font-size: 16px;
+}
+/* responsible for different colored text in the company name ("logo")*/
+span    {
+    color: #d9dcd6
+}
+/* styles navigation element */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: block;
+}
+/* styles content inside the navigation element*/
+nav ul, nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+/* specifies sizing & postioning of hero image */
+figure img {
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+/* styles section to display section articles */
+section  {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20p
+}
+/*  styles articel images inside section */
+section article img {
+    max-height: 200px;
+}
+/* styles all artticels inside aside element along side right hand side of page */
+aside  {
+    margin-right: 20px;
+    margin-bottom: 32px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    background-color: #2589bd;
+}
+/* styles footer of page */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* styling class targeting aside article contents positioning  */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.catagories {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*  styling class targeting asside article images positioning & sizing */
+.benefits img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
